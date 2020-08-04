@@ -21,3 +21,13 @@
                     if id not in problem_mice: 
                         problem_mice.append(id)
         problem_mice
+
+        /# Create a clean DataFrame by dropping the duplicate mouse by its ID.
+        good_mice = d.id.unique()
+        good_mice = list(good_mice)
+        for good_mouse in good_mice:
+                if good_mouse in problem_mice:
+                    good_mice.remove(good_mouse)
+        cd = pd.DataFrame(problem_data.loc[good_mice,:]) #cd stands for "clean data"
+        cd.reset_index(inplace=True)
+        cd # clean data
