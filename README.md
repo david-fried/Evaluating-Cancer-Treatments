@@ -7,15 +7,15 @@
 ![Raw Data](Images/Raw_Data.PNG)
 
 )
-#### Datapoints for each Treatment
+#### Bar Chart
 ![Mice by Treatment](Images/mice_by_treatment_plt.png)
 
 
-#### Male Vs Females and Treatment
+#### Box Plots
 ![Males vs Female Treatment on Tumer Volume Size](Images/males_vs_females_plt.png)
 
 
-#### Average Tumor Volume by Weight (gs)
+#### Scatter Plot
 ![Average Tumor Volume by Weight](Images/AvgTumorVolumeByWeight.PNG)
 
 
